@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "cinzeldecoration";
+  src: url("webfontkit-20230103-100405/cinzeldecorative-regular-webfont.woff2") format("woff");
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-family: "cinzeldecoration";
+  justify-content: space-around;
+}
+
+body {
+  background-image: url(billeder/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+}
+
+ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
