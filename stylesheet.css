@@ -1,17 +1,30 @@
 @font-face {
   font-family: "cinzeldecoration";
-  src: url("webfontkit-20230103-100405/cinzeldecorative-regular-webfont.woff2") format("woff");
+  src: url("MenuFont/cinzeldecorative-regular-webfont.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "cinzeldecoration1";
+  src: url("MenuFont/cinzeldecorative-bold-webfont.woff2") format("woff");
 }
 
 ul {
   list-style: none;
   display: flex;
-  font-family: "cinzeldecoration";
+  font-family: "cinzeldecoration1";
   justify-content: space-around;
+}
+
+ul:hover {
+  letter-spacing: 1px;
+  transition: 700ms ease;
 }
 
 body {
   background-image: url(billeder/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+  background-size: 100%;
+  overflow: hidden;
+  padding: 50px 0;
 }
 
 ul a {
@@ -19,6 +32,42 @@ ul a {
   text-decoration: none;
 }
 
-h1 {
+/* h1 {
   text-align: center;
+  margin: 20% 30%;
+  font-family: "cinzeldecoration1";
+  font-size: xxx-large;
+} */
+
+/* Portfolie overskrift på Forside (ease in)*/
+
+.container {
+  height: 50%;
+  display: flex;
+  margin: 10% 30%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-family: "Gambetta", serif;
+  letter-spacing: 3px;
+  transition: 700ms ease;
+  margin-bottom: 0rem;
+  color: rgb(207, 204, 177);
+  outline: none;
+  text-align: center;
+}
+
+h1:hover {
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: center;
+  color: MintCream;
 }
