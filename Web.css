@@ -1,9 +1,10 @@
 /* Billeder */
 
 img {
-  width: 30%;
+  width: 80%;
   gap: 20px;
-  margin: 50px;
+  margin: 40px;
+  justify-self: center;
 }
 
 /* grid */
@@ -12,18 +13,25 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  background-color: rgba(33, 29, 29, 0.368);
+  /* background-color: rgba(33, 29, 29, 0.368); */
 }
 
 .button {
-  color: black;
+  color: rgb(0, 0, 0);
   width: 30%;
   gap: 20px;
   margin: 50px;
+  text-align: center;
 }
 
 p {
   font-size: 1.2em;
   text-align: center;
   color: rgba(0, 0, 0, 0.933);
+  padding: 10%;
+  background-color: rgba(197, 209, 199, 0.351);
+}
+
+h2 a {
+  color: aliceblue;
 }
