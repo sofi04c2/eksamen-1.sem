@@ -33,8 +33,9 @@ ul a {
 /* Min baggrund */
 
 body {
-  background-image: url(billeder/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
-  background-size: 110%;
+  background-image: url(billeder/Skærmbillede\ 2023-01-04\ kl.\ 17.43.20.png);
+
+  background-size: cover;
 }
 
 /* Portfolie overskrift på Forside (ease in)*/
@@ -44,7 +45,6 @@ body {
   display: flex;
   margin: 10% 30%;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -59,4 +59,49 @@ h1 {
 
 h1:hover {
   letter-spacing: 1px;
+}
+
+.navn {
+  color: bisque;
+}
+
+/* burgermenu */
+.toggle-btn {
+  font-family: "astralaga";
+  background: transparent;
+  padding: 5px;
+  border: solid 1px;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  place-content: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  background-color: rgba(172, 179, 170, 0.591);
+}
+
+@media (min-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
 }
