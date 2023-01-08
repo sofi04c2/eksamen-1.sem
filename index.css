@@ -1,0 +1,129 @@
+/* Mine fonts */
+
+@font-face {
+  font-family: "cinzeldecoration";
+  src: url("MenuFont/cinzeldecorative-regular-webfont.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "cinzeldecoration1";
+  src: url("MenuFont/cinzeldecorative-bold-webfont.woff2") format("woff");
+}
+
+/* Min menu (Unordered list) */
+
+ul {
+  list-style: none;
+  display: flex;
+  font-family: "cinzeldecoration1";
+  justify-content: space-around;
+  padding: 50px 0;
+  /* background-color: rgba(0, 0, 0, 0.144); */
+}
+
+ul:hover {
+  letter-spacing: 1px;
+  transition: 700ms ease;
+}
+
+ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* Min baggrund */
+
+body {
+  background-image: url(billeder/Skærmbillede\ 2023-01-04\ kl.\ 17.43.20.png);
+  background-size: cover;
+}
+
+/* Portfolie overskrift på Forside (ease in)*/
+
+.container {
+  height: 50%;
+  display: flex;
+  margin: 10% 30%;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 120px;
+  font-family: "cinzeldecoration";
+  transition: 700ms ease;
+  margin-bottom: 0px;
+  color: rgb(207, 204, 177);
+  text-align: center;
+}
+
+h1:hover {
+  letter-spacing: 1px;
+}
+
+.navn {
+  color: bisque;
+  text-align: center;
+}
+
+/* burgermenu */
+.toggle-btn {
+  font-family: "astralaga";
+  background: transparent;
+  padding: 5px;
+  border: solid 1px;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  place-content: center;
+}
+
+h4 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.grid {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  ul a {
+    color: rgb(207, 204, 177);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

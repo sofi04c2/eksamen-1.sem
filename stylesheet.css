@@ -10,6 +10,11 @@
   src: url("MenuFont/cinzeldecorative-bold-webfont.woff2") format("woff");
 }
 
+@font-face {
+  font-family: "p";
+  src: url("/pfont/Pfont/quicksand-variablefont_wght-webfont.woff2") format("skrift");
+}
+
 /* Min menu (Unordered list) */
 
 ul {
@@ -18,6 +23,7 @@ ul {
   font-family: "cinzeldecoration1";
   justify-content: space-around;
   padding: 50px 0;
+  /* background-color: rgba(0, 0, 0, 0.144); */
 }
 
 ul:hover {
@@ -33,8 +39,7 @@ ul a {
 /* Min baggrund */
 
 body {
-  background-image: url(billeder/Skærmbillede\ 2023-01-04\ kl.\ 17.43.20.png);
-
+  background-image: url(billeder/beige\ background.jpg);
   background-size: cover;
 }
 
@@ -57,12 +62,31 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-family: "p";
+  font-size: 1.5rem;
+  color: rgba(247, 247, 247, 0.933);
+  /* text-align: center; */
+  /* padding: 10%; */
+  /* background-color: rgba(197, 209, 199, 0.596); */
+}
+
 h1:hover {
   letter-spacing: 1px;
 }
 
 .navn {
   color: bisque;
+  text-align: center;
+}
+button {
+  height: 25px;
+  width: 60%;
+  font-size: 15px;
+  color: #e9e7e6;
+  background: #525952d8;
+  font-family: "cinzeldecoration";
+  gap: 5px;
 }
 
 /* burgermenu */
@@ -79,12 +103,16 @@ h1:hover {
   place-content: center;
 }
 
-p {
-  color: rgb(0, 0, 0);
-  background-color: rgba(172, 179, 170, 0.591);
+h4 {
+  text-align: center;
+  font-size: xx-large;
 }
 
-@media (min-width: 600px) {
+.grid {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 600px) {
   .toggle-btn {
     display: block;
   }
@@ -103,5 +131,22 @@ p {
     display: flex;
     flex-flow: column;
     flex-basis: 100%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  ul a {
+    color: rgb(207, 204, 177);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

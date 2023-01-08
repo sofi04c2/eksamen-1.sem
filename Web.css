@@ -1,7 +1,7 @@
 /* Billeder */
 
 img {
-  width: 80%;
+  width: 70%;
   gap: 20px;
   margin: 40px;
   justify-self: center;
@@ -13,32 +13,73 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+
   /* background-color: rgba(33, 29, 29, 0.368); */
 }
 
-.button {
-  color: rgb(0, 0, 0);
-  width: 30%;
-  gap: 20px;
-  margin: 50px;
-  text-align: center;
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgba(110, 113, 109, 0.548);
 }
 
-p {
-  font-size: 1.2em;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.933);
-  padding: 10%;
-  background-color: rgba(197, 209, 199, 0.596);
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: rgba(110, 113, 109, 0.548); */
+}
+
+button {
+  height: 25px;
+  width: 70%;
+  font-size: 15px;
+  color: #e9e7e6;
+  background: #919288d8;
+  font-family: "cinzeldecoration";
+
+  border-radius: 12px;
 }
 
 h2 a {
   color: aliceblue;
 }
 
+h1 {
+  font-size: 4rem;
+  color: rgba(28, 40, 29, 0.816);
+  padding: 5%;
+}
+
+.Moodboard {
+  width: 90%;
+  gap: 20px;
+  margin: 40px;
+  justify-self: center;
+}
+.Stylesile {
+  width: 100%;
+  gap: 20px;
+  margin: 40px;
+  justify-self: center;
+}
+
+.Wireframe {
+  width: 90%;
+  gap: 20px;
+  margin: 40px;
+  justify-self: center;
+}
 @media (max-width: 600px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  ul a {
+    color: rgb(0, 0, 0);
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: black;
   }
 }
