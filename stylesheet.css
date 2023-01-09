@@ -15,6 +15,38 @@
   src: url("/pfont/Pfont/quicksand-variablefont_wght-webfont.woff2") format("skrift");
 }
 
+@font-face {
+  font-family: "tekst";
+  src: url("/pfont/Pfont/quicksand-variablefont_wght-webfont.woff") format("skrift");
+}
+
+/* tekst */
+
+h1 {
+  font-size: 120px;
+  font-family: "cinzeldecoration";
+  transition: 700ms ease;
+  margin-bottom: 0px;
+  color: rgb(207, 204, 177);
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "cinzeldecoration1";
+  margin-bottom: 0px;
+  color: rgb(71, 67, 67);
+  text-align: center;
+}
+
+p {
+  font-family: "tekst";
+  font-size: 1.5rem;
+  color: rgba(247, 247, 247, 0.933);
+  text-align: center;
+  padding: 5%;
+}
+
 /* Min menu (Unordered list) */
 
 ul {
@@ -53,17 +85,8 @@ body {
   align-items: center;
 }
 
-h1 {
-  font-size: 120px;
-  font-family: "cinzeldecoration";
-  transition: 700ms ease;
-  margin-bottom: 0px;
-  color: rgb(207, 204, 177);
-  text-align: center;
-}
-
 p {
-  font-family: "p";
+  font-family: "tekst";
   font-size: 1.5rem;
   color: rgba(247, 247, 247, 0.933);
   /* text-align: center; */
@@ -79,15 +102,15 @@ h1:hover {
   color: bisque;
   text-align: center;
 }
-button {
+
+/* button {
   height: 25px;
   width: 60%;
   font-size: 15px;
   color: #e9e7e6;
-  background: #525952d8;
   font-family: "cinzeldecoration";
   gap: 5px;
-}
+} */
 
 /* burgermenu */
 .toggle-btn {
