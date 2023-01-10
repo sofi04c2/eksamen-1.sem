@@ -11,13 +11,13 @@
 }
 
 @font-face {
-  font-family: "p";
-  src: url("/pfont/Pfont/quicksand-variablefont_wght-webfont.woff2") format("skrift");
+  font-family: "tekst";
+  src: url(tekst/webfontkit-20230109-085537/arsenal-regular-webfont.woff2);
 }
 
 @font-face {
-  font-family: "tekst";
-  src: url("/pfont/Pfont/quicksand-variablefont_wght-webfont.woff") format("skrift");
+  font-family: "h3";
+  src: url(tekst/webfontkit-20230109-085537/arsenal-bold-webfont.woff2);
 }
 
 /* tekst */
@@ -44,6 +44,12 @@ p {
   font-size: 1.5rem;
   color: rgba(247, 247, 247, 0.933);
   text-align: center;
+  padding: 5%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgba(28, 40, 29, 0.816);
   padding: 5%;
 }
 
@@ -87,8 +93,8 @@ body {
 
 p {
   font-family: "tekst";
-  font-size: 1.5rem;
-  color: rgba(247, 247, 247, 0.933);
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.933);
   /* text-align: center; */
   /* padding: 10%; */
   /* background-color: rgba(197, 209, 199, 0.596); */
