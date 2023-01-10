@@ -34,10 +34,19 @@ p {
 }
 
 @media (max-width: 600px) {
-  .grid {
+  .grid3 {
     grid-template-columns: 1fr;
   }
+
   ul a {
     color: rgb(0, 0, 0);
+  }
+
+  img {
+    width: 70%;
+    gap: 20px;
+    margin: 40px;
+    justify-self: center;
+    border-radius: 12px;
   }
 }
