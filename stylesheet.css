@@ -63,6 +63,19 @@ ul {
   padding: 50px 0;
   /* background-color: rgba(0, 0, 0, 0.144); */
 }
+.GFG {
+  background-color: rgba(191, 172, 155, 0.491);
+  border: 2px solid rgba(97, 91, 84, 0.69);
+  color: #e9e7e6;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 12px;
+}
 
 ul:hover {
   letter-spacing: 1px;

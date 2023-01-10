@@ -59,6 +59,19 @@ h3 {
   /* padding: 10%; */
   /* background-color: rgba(197, 209, 199, 0.596); */
 }
+.GFG {
+  background-color: rgba(191, 172, 155, 0.491);
+  border: 2px solid rgba(97, 91, 84, 0.69);
+  color: #e9e7e6;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 12px;
+}
 
 @media (max-width: 600px) {
   .grid {

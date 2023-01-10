@@ -51,16 +51,18 @@ h1 {
   padding: 5%;
 }
 
-button {
-  justify-content: center;
-  width: 70%;
-  font-size: 15px;
+.GFG {
+  background-color: rgba(191, 172, 155, 0.491);
+  border: 2px solid rgba(97, 91, 84, 0.69);
   color: #e9e7e6;
-  background: #919288d8;
-  font-family: "cinzeldecoration";
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
   border-radius: 12px;
-  margin: auto;
-  gap: 20%;
 }
 
 video {
