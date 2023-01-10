@@ -1,7 +1,7 @@
 /* Billeder */
 
 img {
-  width: 70%;
+  width: 80%;
   gap: 20px;
   margin: 40px;
   justify-self: center;
@@ -26,7 +26,7 @@ img {
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: rgba(132, 134, 130, 0.548);
+  background-color: rgba(154, 144, 127, 0.504);
 }
 
 button {
@@ -52,9 +52,9 @@ h1 {
 }
 
 h3 {
-  font-family: "p";
+  font-family: "h3";
   font-size: 1.5rem;
-  color: rgba(247, 247, 247, 0.933);
+  color: rgba(39, 23, 13, 0.933);
   text-align: center;
   /* padding: 10%; */
   /* background-color: rgba(197, 209, 199, 0.596); */
@@ -72,5 +72,16 @@ h3 {
   h1 {
     font-size: 2rem;
     color: black;
+  }
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid3 {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 80%;
   }
 }
