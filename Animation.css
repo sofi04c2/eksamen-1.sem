@@ -18,6 +18,10 @@ img {
   /* background-color: rgba(33, 29, 29, 0.368); */
 }
 
+p {
+  text-align: center;
+}
+
 .grid1 {
   display: grid;
   grid-template-columns: 1fr;
