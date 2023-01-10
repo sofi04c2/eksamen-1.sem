@@ -34,7 +34,7 @@ ul a {
 /* Min baggrund */
 
 body {
-  background-image: url(billeder/forside.jpg);
+  background-image: url(./billeder/forside.jpg);
   background-size: cover;
 }
 
